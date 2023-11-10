@@ -1,0 +1,264 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+.fondo {
+    background-color: black;
+}
+.Titulo {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+    animation: slideIn 1.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.imglogo {
+    width: 90px;
+    height: auto;
+}
+
+.TituloForm {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin: 1%;
+}
+
+.TituloPago {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin: 6%;
+}
+
+.portada {
+    margin-left: 50px;
+    width: 45%;
+    height: auto;
+    float: left;
+}
+
+.portadaLogo {
+    margin-right: 50px;
+    width: 48%;
+    height: auto;
+    float: right;
+}
+
+.botones {
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.disp-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-col-Izq {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-col-Der {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.subtitulo {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    margin-top: 8%;
+    margin-left: 4.5%;
+}
+
+.Hamburguesa {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.Ingredientes {
+    text-align: left;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 55px;
+}
+
+.flex-hamb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Complementos {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.estrella {
+    width: 42px;
+    height: 40px;
+}
+
+.disp-col-Ingr {
+    margin-bottom: 20px;
+}
+
+.disp-row-hamb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.disp-row-compl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.imgHamb {
+    width: 90px;
+    height: auto;
+}
+
+.imgHamb2 {
+    width: 80px;
+    height: auto;
+}
+
+.imgcompl {
+    width: 90px;
+    height: auto;
+}
+
+.boton_menu {
+    margin-top: 5%;
+    margin-left: 300px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.boton_menu2 {
+    margin-top: 5%;
+    margin-left: 500px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.boton_info {
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.boton_compra {
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.boton_pago {
+    padding: 1%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin: 0.65%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.licencia {
+    margin: 0;
+}
+
+footer {
+    margin: 0;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+audio {
+    display: none;
+}
+
+.video {
+    margin-top: 4%;
+    height: auto;
+    width: 48%;
+}
+.carro img{
+    height: 50vh;
+    width: 40vw;
+}
+.carro2 img{
+    height: 50vh;
+    width: 40vw;
+}
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 20px; /* Puedes ajustar esto según sea necesario */
+}
